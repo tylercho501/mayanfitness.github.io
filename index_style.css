@@ -1,0 +1,153 @@
+*{
+	box-sizing: boder-box;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 90px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.canvas  {
+	background="images\mike.jpg"
+	background-color:grey;
+	height: 90%;
+	width:180;
+	position: absolute;
+	top:5%;
+	left:10%;
+	
+}
+.header  {
+	background=images\mike.jpg;
+	color:white;
+	//border:2px solid black;
+	height:35%;
+	width:475%;
+	position: absolute;
+	top:165;
+	left:210%;
+	font-size:17px;
+	font-family: Arial;
+
+
+}
+.menu {
+	background=images\mike.jpg;
+	color: white;
+	//border: 2px solid black;
+	//padding: 20px;
+	height:68%;
+	width:250%;
+	position: absolute;
+	top:135%;
+	left:720%;
+	font-size:17px;
+	font-family: Arial;
+	
+}
+.body {
+	background=images\mike.jpg;
+	color: white;
+	//border: 2px solid black;
+	//padding: 20px;
+	height:400px;
+	width:600%;
+	position: absolute;
+	top:175%;
+	left:90%;
+	font-size:17px;
+	font-family: Arial;
+}
+.tips {
+
+	height:400px;
+	width:600%;
+	position: absolute;
+	top:25%;
+	left:90%;
+	font-size:17px;
+	font-family: Arial;
+	color: white;
+}
+.fit {
+	
+	height:400px;
+	width:600%;
+	position: absolute;
+	top:150%;
+	left:90%;
+	font-size:17px;
+	font-family: Arial;
+	color: white;
+}
+.contact-section h1{
+	text-align: center;
+	color: white;
+	font-style: optima;
+}
+.border{
+	width: 500px;
+	height: 50px;
+	background: #34495e;
+	margin: 40px auto;
+}
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 20 70px;
+	overflow: hidden;
+}
+
+.contact-form-text{
+	display: block;
+	width: 90%;
+	box-sizing: border-box;
+	margin: 20px 0;
+	border: 0;
+	background: #111;
+	padding: 30px 5px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+}
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #34495;
+}
+textarea.contact-form-text{
+	resize:none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #34495e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact-form-btn:hover{
+	background: #2980b9;
+}
+
+	
+
+	
